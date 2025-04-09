@@ -36,3 +36,7 @@
     - name: Save configuration
       cisco.ios.ios_command:
         command: write memory
+
+
+      # to run in CLI:   ansible-playbook -i hosts ospf_setup.yml
+
