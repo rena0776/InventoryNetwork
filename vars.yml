@@ -1,0 +1,16 @@
+#Create Variables to use in the script: 
+
+ospf_process_id: 1
+ospf_reference_bandwidth: 1000  # 1000 Mbps for reference bandwidth
+ospf_area_id: 0
+ospf_interface: GigabitEthernet0/0
+
+# MD5 Authentication
+md5_key_id: 1
+md5_password: "secret-password"
+
+# SHA Authentication
+sha_key_chain_name: "OSPF-KEYCHAIN"
+sha_key_id: 1
+sha_key_string: "StrongPassword123"
+sha_algorithm: "hmac-sha-256"
